@@ -27,8 +27,7 @@
 body {
     /*background: color image repeat position/size */
     background: var(--bg-url) no-repeat top center/cover;
-
-
+    height: 100vh;
 }
 
 body * {
@@ -94,7 +93,7 @@ body * {
 }
 
 #switch button:hover {
-    outline: 8px solid var()
+    outline: 8px solid var(--highlight-color)
 }
 
 #switch span {
@@ -129,6 +128,7 @@ ul li a {
 
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
+    
     border-radius: 8px;
     backdrop-filter: blur(4px);
 
